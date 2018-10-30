@@ -1,0 +1,46 @@
+
+html{font-size: 15px;}
+.row div{
+    height: 5rem;
+    border: 5px solid white;
+}
+
+.row.blue div {
+    height: 3em;
+    background-color: blue;
+}
+.row.orange div {
+    height:12em;
+    background-color: orange;
+}
+.row.green div {
+    height:8em;
+}
+@media only screen and (max-width:600px){ 
+.row.green div {
+    background-color: black;
+    height:3em;
+}
+}
+@media only screen and (min-width:600px){ 
+    .row.green div {
+        background-color: gray;
+        height:4em;
+    }
+    }
+@media screen and (min-width:768px){ 
+        .row.green div {
+            background-color: purple;
+            height:5em;
+        }
+        }
+@media screen and (min-width:992px){ 
+            .row.green div {
+                background-color: green;
+                height:7em;
+            }
+            }
+.row.red div {
+    height:5em;
+    background-color: red;
+}
